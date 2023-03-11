@@ -5,7 +5,7 @@
   flex-direction: row-reverse;
   justify-content: flex-end;
   align-items: center;
-  background-color: #2898ec;
+  background-color: #e0e4e7;
 }
 
 .react-chatbot-kit-user-avatar-container {
@@ -30,7 +30,7 @@
   padding: 10px;
   border-radius: 5px;
   font-size: 1rem;
-  color: #fff1f1;
+  color: #000000;
   font-weight: medium;
   position: relative;
   /* text-align: left; */
@@ -52,7 +52,7 @@
   display: flex;
   padding: 15px 0;
   justify-content: flex-start;
-  background-color: #1d1d1d;
+  background-color: #dcdcdc;
 }
 
 .react-chatbot-kit-chat-bot-avatar-container {
@@ -61,7 +61,7 @@
   border-radius: 50%;
   font-size: 1.2rem;
   margin : 0 12.5px;
-  background-color: #d8d8d8;
+  background-color: #8c8c8c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@
   padding: 10px;
   border-radius: 5px;
   font-size: 1rem;
-  color: #fff;
+  color: #000000;
   font-weight: medium;
   position: relative;
   /* width: 184.5px; */
@@ -113,20 +113,24 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  /* background-color: #000000; */
 }
 
 #chatbot-loader #chatbot-loader-dot1 {
   animation: load 1s infinite;
+  background-color: #000000;
 }
 
 #chatbot-loader #chatbot-loader-dot2 {
   animation: load 1s infinite;
   animation-delay: 0.2s;
+  background-color: #000000;
 }
 
 #chatbot-loader #chatbot-loader-dot3 {
   animation: load 1s infinite;
   animation-delay: 0.4s;
+  background-color: #000000;
 }
 
 @keyframes load {

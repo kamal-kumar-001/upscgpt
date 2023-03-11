@@ -12,16 +12,10 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
             User: I want a article on  prepare for Prelims and Mains? 
             UPSCPREP Bot: I found some articles for you <br>
             <li>
-            <a href="https://www.upscprep.com/prepare-for-prelims-and-mains-together/" target="_blank" style="
-            color: white;
-            text-decoration: none;
-        "> How to prepare for Prelims and Mains together? </a>
+            <a href="https://www.upscprep.com/prepare-for-prelims-and-mains-together/" target="_blank" style=" text-decoration: none;"> How to prepare for Prelims and Mains together? </a>
             </li>
             <li>
-            <a href="https://www.upscprep.com/start-your-prelims-journey-today/" target="_blank" style="
-            color: white;
-            text-decoration: none;
-        "> Start Your Prelims Journey Today! </a>
+            <a href="https://www.upscprep.com/start-your-prelims-journey-today/" target="_blank" style=" text-decoration: none;"> Start Your Prelims Journey Today! </a>
             </li>
             user: ${message}?
             UPSCPREP Bot: `,

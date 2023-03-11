@@ -2,7 +2,7 @@ import {
   createChatBotMessage,
 } from 'react-chatbot-kit';
 
-const botName = 'Testing Bot';
+const botName = 'UPSCprep Bot ';
 
 const config = {
   initialMessages: [
